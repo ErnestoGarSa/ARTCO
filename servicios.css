@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(189, 168, 204);
+}
+
+.servicios{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.card{
+  
+}

@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.somos{
+  background: #d83939;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.somos-p h2{
+  text-align: center;
+}
+
+.somos-p p{
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.somos-i{
+  display: flex;
+  justify-content: center;
+}
+
+.mision{
+  background: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mision p{
+  font-size: 25px;
+  color: #000;
+}
+
+.servicios {
+  background: rgb(157, 157, 235);
+  text-align: center;
+}
+
+.servicios-i{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+}
+
+.servicios-b{
+  display: flex;
+  align-items: center;
+  padding:10px;
+  font-size: 20px;
+}
+
+.atencion{
+  background: darkolivegreen;
+  text-align: center;
+}
+
+.atencion p{
+  font-size: 25px;
+}
+
+.footer{
+  background: rgb(20, 20, 20);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 30px;
+}
+
+.footer .contacto{
+
+}
+
+.footer .informacion{
+
+}
+
+.footer .mensaje{
+  display: flex;
+  text-align: center;
+}
+
+.grande{
+  width: 404px;
+  height: 100px;
+}
+
+input,textarea{
+  width: 200px;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px;
+  color: #1668c4;
+}
+
+input:focus, textarea:focus{
+  border: 1px solid #1668c4;
+}
+
+input[type:"submit"]{
+  margin-bottom:0;
+  background:#1668c4;
+  color:#fff;
+  border:none;
+}
+
+input[type:"submit"]:hover{
+  background:#4a88f4;
+  cursor:pointer;
+}

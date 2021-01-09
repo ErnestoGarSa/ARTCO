@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: chartreuse;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+input,textarea{
+  width: 500px;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px;
+  color: #1668c4;
+}
+
+input:focus, textarea:focus{
+  border: 1px solid #1668c4;
+}
+
+input[type:"submit"]{
+  margin-bottom:0;
+  background:#1668c4;
+  color:#fff;
+  border:none;
+}
+
+input[type:"submit"]:hover{
+  background:#4a88f4;
+  cursor:pointer;
+}
+
+button{
+  background: #2c68f3;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+button:hover{
+  background: #477bf3;
+  border: 1px solid #3FCDFA;
+  color:#fff;
+  margin-top: 30px;
+}
