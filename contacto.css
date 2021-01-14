@@ -4,8 +4,29 @@
 }
 
 body{
-  background: chartreuse;
+  background: #9cb0e0;
 }
+
+.navbar {
+  text-align: center;
+  color: #3B95C4;
+  font-weight: 500;
+  background-color: #fffbf7;
+}
+
+.navbar-light .nav-item .nav-link {
+  font-size: 20px;
+  color: #3B95C4 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border: 2px solid #025157;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 
 .contacto{
   display: flex;
@@ -46,10 +67,37 @@ button{
   height: 30px;
   font-weight: 500;
   margin-top: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 button:hover{
   background: #477bf3;
   border: 1px solid #3FCDFA;
-  color:#fff;
+  color: #000000;;
   margin-top: 30px;
 }
+
+.footer{
+  background: rgb(61, 49, 49);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 10px;
+  color: #ffffff;
+}
+
+.footer .contacto{
+
+}
+
+.footer .informacion{
+
+}
+
+.footer .mensaje{
+  font-size: 25px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  text-align: center;
+  justify-content: ;
+}
+
