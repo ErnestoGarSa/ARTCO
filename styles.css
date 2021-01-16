@@ -12,7 +12,11 @@
 
 .navbar-light .nav-item .nav-link {
   font-size: 20px;
-  color: #3B95C4 !important;
+  color: #3B95C4;
+}
+
+.navbar-light .nav-item .nav-link:hover{
+  color:#ffffff;
 }
 
 .navbar-light .navbar-toggler {
@@ -31,6 +35,10 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   grid-template-areas:"somos-p somos-i";
+}
+
+.somos h2{
+  color: #0d7077;
 }
 
 .somos-p{
@@ -57,26 +65,39 @@
 }
 
 .mision{
-  background: cornflowerblue;
+  background-image: url(imagenes/fondo2.jpg);
+  background-size:cover;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.mision h2{
+  color:rgb(255, 203, 0);
 }
 
 .mision p{
   font-size: 25px;
-  color: #000;
+  color: #ffffff;
 }
 
 .servicios {
+  padding-top: 50px;
   background: #ffffff;;
   text-align: center;
+}
+
+.servicios h2{
+  color:#0d7077;
 }
 
 .servicios-i{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
+  padding-left: 200px;
 }
 
 .servicios-b{
@@ -108,12 +129,22 @@
 }
 
 .atencion{
-  background: darkolivegreen;
+  background-image: url(imagenes/atencion2.jpg);
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
   text-align: center;
+}
+
+.atencion h2{
+  color: #0d7077;
 }
 
 .atencion p{
   font-size: 25px;
+  font-weight: 500;
 }
 
 .atencion button{
@@ -138,19 +169,11 @@
 }
 
 .footer{
-  background: rgb(61, 49, 49);
+  background: rgb(31, 30, 30);
   display: grid;
   grid-template-columns: repeat(3,1fr);
   padding: 10px;
   color: #ffffff;
-}
-
-.footer .contacto{
-
-}
-
-.footer .informacion{
-
 }
 
 .footer .mensaje{
