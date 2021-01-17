@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
   text-align: center;
   color: #3B95C4;
@@ -21,18 +16,25 @@
 
 .navbar-light .navbar-toggler {
   border: 2px solid #025157;
+  background: #3b95c4;
+}
+
+.navbar-light .navbar-toggler:hover{
+  background: #477bf3;
+  border: 1px solid #3FCDFA;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-h2{
+.titulo{
   text-align: center;
   margin-bottom: 20px;
   margin-top: 30px;
   color: #0d7077;
 }
+
 
 .proyectos{
   display: grid;
@@ -68,4 +70,26 @@ h2{
 
 .footer .mensaje img{
   width: 75px;
+}
+
+@media (max-width: 425px){
+  .proyectos{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer .mensaje img{
+    width: 35px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  .proyectos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer .mensaje img{
+    width: 50px;
+  }
 }
